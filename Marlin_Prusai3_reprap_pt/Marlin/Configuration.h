@@ -332,8 +332,8 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 // Travel limits after homing
 #define X_MAX_POS 190
 #define X_MIN_POS 0
-#define Y_MAX_POS 195
-#define Y_MIN_POS 5
+#define Y_MAX_POS 190
+#define Y_MIN_POS 10
 #define Z_MAX_POS 180
 #define Z_MIN_POS 0
 
