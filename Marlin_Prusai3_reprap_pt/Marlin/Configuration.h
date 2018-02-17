@@ -15,7 +15,7 @@
 // User-specified version info of this build to display in [Pronterface, etc] terminal window during
 // startup. Implementation of an idea by Prof Braino to inform user that any changes made to this
 // build by the user have been successfully uploaded into firmware.
-#define STRING_VERSION_CONFIG_H __DATE__ "2018-01-29 23:51h" __TIME__ // build date and time
+#define STRING_VERSION_CONFIG_H __DATE__ "2018-02-17 18:16h" __TIME__ // build date and time
 #define STRING_CONFIG_H_AUTHOR "(Emil Lefherz, reprap.pt)" // Who made the changes.
 
 // SERIAL_PORT selects which serial port should be used for communication with the host.
@@ -333,7 +333,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 #define X_MAX_POS 190
 #define X_MIN_POS 0
 #define Y_MAX_POS 190
-#define Y_MIN_POS 10
+#define Y_MIN_POS 5
 #define Z_MAX_POS 180
 #define Z_MIN_POS 0
 
@@ -446,7 +446,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 
 // default settings
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {80, 80, 4000,625.70681}  // default steps per unit for Ultimaker
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {80, 80, 8888, 812.6}  // default steps per unit for Ultimaker
 #define DEFAULT_MAX_FEEDRATE          {250, 250, 3.3, 25}    // (mm/sec)
 #define DEFAULT_MAX_ACCELERATION      {3000,3000,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 
